@@ -1,0 +1,498 @@
+INFO    |     341678 |     EmuMain     | ApplyDriverPatches: Applied GPU memory import patch
+INFO    |     341738 |     EmuMain     | CreateDevice: Did not find a dedicated transfer queue family
+INFO    |     360595 |     EmuMain     | CreateDevice: Vulkan Device:
+Name: Turnip Adreno (TM) 650
+Type: IntegratedGpu
+Driver ID: MesaTurnip
+Vulkan Version: 1.3.359
+Driver Version: 26.2.99
+Queues:
+* 1xGCT--: TSB48 MIG(1x1x1) <--
+Extensions:
+* VK_KHR_incremental_present (v0.0.1)
+* VK_EXT_hdr_metadata (v0.0.2)
+* VK_GOOGLE_display_timing (v0.0.1)
+* VK_KHR_16bit_storage (v0.0.1)
+* VK_KHR_bind_memory2 (v0.0.1)
+* VK_KHR_buffer_device_address (v0.0.1)
+* VK_KHR_compute_shader_derivatives (v0.0.1)
+* VK_KHR_copy_commands2 (v0.0.1)
+* VK_KHR_create_renderpass2 (v0.0.1)
+* VK_KHR_dedicated_allocation (v0.0.3)
+* VK_KHR_deferred_host_operations (v0.0.4)
+* VK_KHR_depth_stencil_resolve (v0.0.1)
+* VK_KHR_descriptor_update_template (v0.0.1)
+* VK_KHR_device_group (v0.0.4)
+* VK_KHR_draw_indirect_count (v0.0.1)
+* VK_KHR_driver_properties (v0.0.1)
+* VK_KHR_dynamic_rendering (v0.0.1)
+* VK_KHR_dynamic_rendering_local_read (v0.0.1)
+* VK_KHR_external_fence (v0.0.1)
+* VK_KHR_external_fence_fd (v0.0.1)
+* VK_KHR_external_memory (v0.0.1)
+* VK_KHR_external_memory_fd (v0.0.1)
+* VK_KHR_external_semaphore (v0.0.1)
+* VK_KHR_external_semaphore_fd (v0.0.1)
+* VK_KHR_format_feature_flags2 (v0.0.2)
+* VK_KHR_get_memory_requirements2 (v0.0.1)
+* VK_KHR_global_priority (v0.0.1)
+* VK_KHR_image_format_list (v0.0.1)
+* VK_KHR_imageless_framebuffer (v0.0.1)
+* VK_KHR_index_type_uint8 (v0.0.1)
+* VK_KHR_line_rasterization (v0.0.1)
+* VK_KHR_load_store_op_none (v0.0.1)
+* VK_KHR_maintenance1 (v0.0.2)
+* VK_KHR_maintenance2 (v0.0.1)
+* VK_KHR_maintenance3 (v0.0.1)
+* VK_KHR_maintenance4 (v0.0.2)
+* VK_KHR_maintenance5 (v0.0.1)
+* VK_KHR_maintenance6 (v0.0.1)
+* VK_KHR_maintenance7 (v0.0.1)
+* VK_KHR_map_memory2 (v0.0.1)
+* VK_KHR_multiview (v0.0.1)
+* VK_KHR_pipeline_executable_properties (v0.0.1)
+* VK_KHR_pipeline_library (v0.0.1)
+* VK_KHR_push_descriptor (v0.0.2)
+* VK_KHR_relaxed_block_layout (v0.0.1)
+* VK_KHR_sampler_mirror_clamp_to_edge (v0.0.3)
+* VK_KHR_sampler_ycbcr_conversion (v0.0.14)
+* VK_KHR_separate_depth_stencil_layouts (v0.0.1)
+* VK_KHR_shader_clock (v0.0.1)
+* VK_KHR_shader_draw_parameters (v0.0.1)
+* VK_KHR_shader_expect_assume (v0.0.1)
+* VK_KHR_shader_float16_int8 (v0.0.1)
+* VK_KHR_shader_float_controls (v0.0.4)
+* VK_KHR_shader_float_controls2 (v0.0.1)
+* VK_KHR_shader_integer_dot_product (v0.0.1)
+* VK_KHR_shader_non_semantic_info (v0.0.1)
+* VK_KHR_shader_relaxed_extended_instruction (v0.0.1)
+* VK_KHR_shader_subgroup_extended_types (v0.0.1)
+* VK_KHR_shader_subgroup_rotate (v0.0.2)
+* VK_KHR_shader_subgroup_uniform_control_flow (v0.0.1)
+* VK_KHR_shader_terminate_invocation (v0.0.1)
+* VK_KHR_spirv_1_4 (v0.0.1)
+* VK_KHR_storage_buffer_storage_class (v0.0.1)
+* VK_KHR_synchronization2 (v0.0.1)
+* VK_KHR_timeline_semaphore (v0.0.2)
+* VK_KHR_uniform_buffer_standard_layout (v0.0.1)
+* VK_KHR_variable_pointers (v0.0.1)
+* VK_KHR_vertex_attribute_divisor (v0.0.1)
+* VK_KHR_vulkan_memory_model (v0.0.3)
+* VK_KHR_workgroup_memory_explicit_layout (v0.0.1)
+* VK_KHR_zero_initialize_workgroup_memory (v0.0.1)
+* VK_EXT_4444_formats (v0.0.1)
+* VK_EXT_attachment_feedback_loop_dynamic_state (v0.0.1)
+* VK_EXT_attachment_feedback_loop_layout (v0.0.2)
+* VK_EXT_border_color_swizzle (v0.0.1)
+* VK_EXT_color_write_enable (v0.0.1)
+* VK_EXT_conditional_rendering (v0.0.2)
+* VK_EXT_custom_border_color (v0.0.12)
+* VK_EXT_custom_resolve (v0.0.1)
+* VK_EXT_debug_marker (v0.0.4)
+* VK_EXT_depth_clamp_control (v0.0.1)
+* VK_EXT_depth_clamp_zero_one (v0.0.1)
+* VK_EXT_depth_clip_control (v0.0.1)
+* VK_EXT_depth_clip_enable (v0.0.1)
+* VK_EXT_descriptor_buffer (v0.0.1)
+* VK_EXT_descriptor_indexing (v0.0.2)
+* VK_EXT_device_address_binding_report (v0.0.1)
+* VK_EXT_device_memory_report (v0.0.2)
+* VK_EXT_dynamic_rendering_unused_attachments (v0.0.1)
+* VK_EXT_extended_dynamic_state (v0.0.1)
+* VK_EXT_extended_dynamic_state2 (v0.0.1)
+* VK_EXT_extended_dynamic_state3 (v0.0.2)
+* VK_EXT_external_memory_dma_buf (v0.0.1)
+* VK_EXT_filter_cubic (v0.0.3)
+* VK_EXT_fragment_density_map (v0.0.3)
+* VK_EXT_fragment_density_map_offset (v0.0.1)
+* VK_EXT_global_priority (v0.0.2)
+* VK_EXT_global_priority_query (v0.0.1)
+* VK_EXT_graphics_pipeline_library (v0.0.1)
+* VK_EXT_host_image_copy (v0.0.1)
+* VK_EXT_host_query_reset (v0.0.1)
+* VK_EXT_image_2d_view_of_3d (v0.0.1)
+* VK_EXT_image_compression_control (v0.0.1)
+* VK_EXT_image_drm_format_modifier (v0.0.2)
+* VK_EXT_image_robustness (v0.0.1)
+* VK_EXT_image_view_min_lod (v0.0.1)
+* VK_EXT_index_type_uint8 (v0.0.1)
+* VK_EXT_inline_uniform_block (v0.0.1)
+* VK_EXT_legacy_dithering (v0.0.2)
+* VK_EXT_legacy_vertex_attributes (v0.0.1)
+* VK_EXT_line_rasterization (v0.0.1)
+* VK_EXT_load_store_op_none (v0.0.1)
+* VK_EXT_map_memory_placed (v0.0.1)
+* VK_EXT_memory_budget (v0.0.1)
+* VK_EXT_multi_draw (v0.0.1)
+* VK_EXT_multisampled_render_to_single_sampled (v0.0.1)
+* VK_EXT_mutable_descriptor_type (v0.0.1)
+* VK_EXT_nested_command_buffer (v0.0.1)
+* VK_EXT_non_seamless_cube_map (v0.0.1)
+* VK_EXT_pipeline_creation_cache_control (v0.0.3)
+* VK_EXT_pipeline_creation_feedback (v0.0.1)
+* VK_EXT_primitive_restart_index (v0.0.1)
+* VK_EXT_primitive_topology_list_restart (v0.0.1)
+* VK_EXT_primitives_generated_query (v0.0.1)
+* VK_EXT_private_data (v0.0.1)
+* VK_EXT_provoking_vertex (v0.0.1)
+* VK_EXT_queue_family_foreign (v0.0.1)
+* VK_EXT_rasterization_order_attachment_access (v0.0.1)
+* VK_EXT_robustness2 (v0.0.1)
+* VK_EXT_sample_locations (v0.0.1)
+* VK_EXT_sampler_filter_minmax (v0.0.2)
+* VK_EXT_scalar_block_layout (v0.0.1)
+* VK_EXT_separate_stencil_usage (v0.0.1)
+* VK_EXT_shader_atomic_float (v0.0.1)
+* VK_EXT_shader_demote_to_helper_invocation (v0.0.1)
+* VK_EXT_shader_module_identifier (v0.0.1)
+* VK_EXT_shader_replicated_composites (v0.0.1)
+* VK_EXT_shader_stencil_export (v0.0.1)
+* VK_EXT_shader_uniform_buffer_unsized_array (v0.0.1)
+* VK_EXT_shader_viewport_index_layer (v0.0.1)
+* VK_EXT_subgroup_size_control (v0.0.2)
+* VK_EXT_texel_buffer_alignment (v0.0.1)
+* VK_EXT_texture_compression_astc_hdr (v0.0.1)
+* VK_EXT_tooling_info (v0.0.1)
+* VK_EXT_transform_feedback (v0.0.1)
+* VK_EXT_vertex_attribute_divisor (v0.0.3)
+* VK_EXT_vertex_input_dynamic_state (v0.0.2)
+* VK_EXT_zero_initialize_device_memory (v0.0.1)
+* VK_AMD_buffer_marker (v0.0.1)
+* VK_ANDROID_external_memory_android_hardware_buffer (v0.0.5)
+* VK_KHR_swapchain (v0.0.70)
+* VK_ARM_rasterization_order_attachment_access (v0.0.1)
+* VK_GOOGLE_decorate_string (v0.0.1)
+* VK_GOOGLE_hlsl_functionality1 (v0.0.1)
+* VK_IMG_filter_cubic (v0.0.1)
+* VK_NV_compute_shader_derivatives (v0.0.1)
+* VK_QCOM_fragment_density_map_offset (v0.0.3)
+* VK_QCOM_multiview_per_view_render_areas (v0.0.1)
+* VK_QCOM_multiview_per_view_viewports (v0.0.1)
+* VK_QCOM_render_pass_shader_resolve (v0.0.4)
+* VK_VALVE_fragment_density_map_layered (v0.0.1)
+* VK_VALVE_mutable_descriptor_type (v0.0.1)
+Traits:
+* Supports U8 Indices: true
+* Supports Sampler Mirror Clamp To Edge: true
+* Supports Sampler Reduction Mode: true
+* Supports Custom Border Color (Without Format): false
+* Supports Anisotropic Filtering: true
+* Supports Last Provoking Vertex: true
+* Supports Logical Operations: true
+* Supports Vertex Attribute Divisor: true
+* Supports Vertex Attribute Zero Divisor: true
+* Supports Push Descriptors: true
+* Supports Imageless Framebuffers: true
+* Supports Global Priority: true
+* Supports Multiple Viewports: true
+* Supports Shader Viewport Index: true
+* Supports SPIR-V 1.4: true
+* Supports Shader Invocation Demotion: true
+* Supports 64-bit FP: false
+* Supports 16-bit FP: true
+* Supports 8-bit Integers: true
+* Supports 16-bit Integers: true
+* Supports 64-bit Integers: true
+* Supports Conditional Shader Barriers: true
+* Supports Atomic 64-bit Integers: false
+* Supports Floating Point Behavior Control: true
+* Supports Image Read Without Format: true
+* Supports List Primitive Topology Restart: true
+* Supports Patch List Primitive Topology Restart: false
+* Supports Transform Feedback: true
+* Supports Geometry Shaders: true
+* Supports Vertex Pipeline Stores and Atomics: true
+* Supports Fragment Stores and Atomics: true
+* Supports Shader Storage Image Write Without Format: true
+* Supports Unrestricted Depth Range: false
+* Supports Independent Depth Clip Enable: true
+* Supports Attachment Feedback Loop Layout: true
+* Supports Memory Budget: true
+* Supports Memory Priority: false
+* Supports Depth Bias Control (Exact): false (false)
+* Supports Conditional Rendering: true
+* Supports Vertex Input Dynamic State: true
+* Supports Timeline Semaphores: false
+* Supports Subgroup Size Control: false
+* Supports Explicit Workgroup Layout: false
+* Supports Shader Stencil Export: true
+* Supports Conservative Rasterization: false
+* Supports Draw Indirect Count: true
+* Supports Swapchain Mutable Format: false
+* Supports Host Query Reset: true
+* Supports Pipeline Executable Properties: true
+* Supports Tooling Info: true
+* Debugging Tool Attached: false
+* Supports Subgroup Vote: true
+* Subgroup Size (min/current/max): 128/128/128
+* BCn Support: 1111111
+Quirks:
+* Needs Individual Texture Binding Writes: false
+* VkImage Mutable Format is costly: true
+* Adreno Relaxed Format Aliasing: true
+* Adreno Broken Format Reporting: false
+* Relaxed Render Pass Compatibility: true
+* Prefer Traditional Render Passes: true
+* Broken Extended Dynamic State 2: false
+* Broken Vertex Input Dynamic State: false
+* Broken Timeline Semaphore: true
+* Broken Explicit Workgroup Layout: true
+* Max Subpass Count: 4294967295
+* Max Global Queue Priority: Medium
+INFO    |     421675 |     EmuMain     | MemoryManager: MEMORY MODE: aggressive RAM=false aggressive GPU/VRAM=false largeHeapBlock=0 MiB
+INFO    |     463448 |     EmuMain     | Audio Core (Service_Audio): Auto-selecting the cubeb backend
+INFO    |     465636 |     EmuMain     | Audio Core (Service_Audio): Auto-selecting the cubeb backend
+INFO    |     601427 |     EmuMain     | ReadImpl: DIAG bisect-readfrompatch-hang: CtrEncryptedBacking::ReadImpl ENTER offset=0x0, outputSize=0x50, baseOffset=0x14C00
+INFO    |     601441 |     EmuMain     | ReadImpl: DIAG bisect-readfrompatch-hang: before backing->ReadUnchecked (aligned path)
+INFO    |     601445 |     EmuMain     | ReadImpl: DIAG bisect-readfrompatch-hang: after backing->ReadUnchecked (aligned path), read=0x50
+INFO    |     601446 |     EmuMain     | ReadImpl: DIAG bisect-readfrompatch-hang: before cipher.Decrypt (aligned path)
+INFO    |     601452 |     EmuMain     | ReadImpl: DIAG bisect-readfrompatch-hang: after cipher.Decrypt (aligned path)
+INFO    |     601454 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x14000, size=0x10AB48)
+INFO    |     601521 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x14000, size=0x2BC48)
+INFO    |     601568 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x1AF8000, size=0x35B7FF15C)
+INFO    |     602763 |     EmuMain     | Initialise: Disk shader/pipeline cache: enabled
+INFO    |     602972 |     EmuMain     | PipelineManager: Graphics shader translation workers: requested=0 effective=2 mode=Auto
+INFO    |     605986 |     EmuMain     | PipelineManager: Loaded 0 graphics pipelines in 0ms
+INFO    |     606297 |       unk       | SerialisePipelineCache: Wrote Vulkan pipeline cache to /storage/emulated/0/Android/data/org.stratoemu.strato/files/vk_graphics_pipeline_cache/01007EF00011E000/435100000200050663208006A828463CC32C06EFE92A24EDECDA7BCF (size: 0x24 bytes)
+INFO    |     609278 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x14000, size=0x28FB0)
+INFO    |     609308 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x14000, size=0x150B88)
+INFO    |     609507 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x1C4C000, size=0x385EFB0B0)
+INFO    |     609681 |     EmuMain     | FindTitleUpdatePackage: FindTitleUpdatePackage: candidate "The Legend of Zelda Breath of the Wild [01007EF00011E800][v786432].nsp" CNMT version 786432 for 0x01007EF00011E000
+INFO    |     609685 |     EmuMain     | FindTitleUpdatePackage: FindTitleUpdatePackage: selected "The Legend of Zelda Breath of the Wild [01007EF00011E800][v786432].nsp" (CNMT version 786432)
+INFO    |     609722 |     EmuMain     | ReadRomFs: ReadRomFs: selected IVFC level 5 (reported=7, offset=0x1C4C000, size=0x385EFB0B0)
+INFO    |     609725 |     EmuMain     | FindTitleUpdate: FindTitleUpdate: using "The Legend of Zelda Breath of the Wild [01007EF00011E800][v786432].nsp" version 786432: program=true, extraRomFsPatch=false
+INFO    |     610108 |     EmuMain     | GetPatchedRomFs: DIAG dump-bktr-raw-entries: subsectionTable.size=0x8000, numBuckets=1, numEntries(bucket0)=425, aesCtrExOffset=0x3936F000, header16=00 00 00 00 01 00 00 00 00 F0 36 39 00 00 00 00 , lastEntries: [entry 422: A0 A3 0E 38 00 00 00 00 00 00 00 00 0B 00 00 00 ] [entry 423: 30 CF 3F 38 00 00 00 00 00 00 00 00 0A 00 00 00 ] [entry 424: B0 61 44 38 00 00 00 00 00 00 00 00 0B 00 00 00 ] 
+INFO    |     610114 |     EmuMain     | GetPatchedRomFs: DIAG dump-bktr-raw-entries: indirectTable first entry (0x14 bytes) = 00 00 00 00 00 00 00 00 80 55 5B 38 00 00 00 00 01 00 00 00 
+INFO    |     610167 |     EmuMain     | operator(): LoadProcessData: Applied Program title-update RomFS patch (baseIvfcOffset=0x1AF8000, patchedIvfcOffset=0x1C4C000)
+INFO    |     610194 |     EmuMain     | NPDM Metadata:
+Title: ID: 1007EF00011E000, Version: 0
+Main Thread: Priority: 44, Stack Size: 0x100000
+Scheduler: Ideal Core: 0, Core Mask: 0111, Priority: 28 - 59
+Kernel Version: v9.1
+INFO    |     613202 |     EmuMain     | PrintRoContentsInfo: Module Path: nnrtld
+INFO    |     613273 |     EmuMain     | LoadExeFs: Loaded 'rtld.nso' at 0x800000000 (.text @ 0x800001000)
+INFO    |     833949 |     EmuMain     | PrintRoContentsInfo: Module Path: D:\home\Cafe\U-King\trunk\Game\App\Rom\NX64\Product\code\U-King.nss
+INFO    |     849130 |     EmuMain     | PrintRoContentsInfo: SDK Libraries: SDK MW+Nintendo+NintendoWare_Atk-7_3_2-Release
+SDK MW+Nintendo+NintendoWare_Font-7_3_2-Release
+SDK MW+Nintendo+NintendoWare_G3d-7_3_2-Release
+SDK MW+Nintendo+NintendoWare_Ui2d-7_3_2-Release
+SDK MW+Nintendo+NintendoWare_Vfx-7_3_2-Release
+SDK MW+Microsoft+Havok_Cloth-2014_2
+SDK MW+Microsoft+Havok-2014_2
+SDK MW+Microsoft+Havok_Animation-2014_2
+SDK MW+Microsoft+Havok_AI-2014_2
+SDK MW+Microsoft+Havok_Physics2012-2014_2
+
+INFO    |     890461 |     EmuMain     | LoadExeFs: Loaded 'main.nso' at 0x800005000 (.text @ 0x800007000)
+INFO    |     923777 |     EmuMain     | PrintRoContentsInfo: Module Path: multimedia
+INFO    |     929163 |     EmuMain     | PrintRoContentsInfo: SDK Libraries: SDK MW+Nintendo+NintendoSDK_movie-7_3_2-Release
+
+INFO    |     935181 |     EmuMain     | LoadExeFs: Loaded 'subsdk0.nso' at 0x802d6d000 (.text @ 0x802d6e000)
+INFO    |     993295 |     EmuMain     | PrintRoContentsInfo: Module Path: nnSdk
+INFO    |    1001076 |     EmuMain     | PrintRoContentsInfo: SDK Version: 7.3.2
+INFO    |    1011327 |     EmuMain     | PrintRoContentsInfo: SDK Libraries: SDK MW+Nintendo+NintendoSDK_libz-7_3_2-Release
+SDK MW+Nintendo+NintendoSdk_nnSdk-7_3_2-Release
+SDK MW+Nintendo+NintendoSDK_NVN-7_3_2-Release
+
+INFO    |    1022371 |      HOS-1      | LoadExeFs: Loaded 'sdk.nso' at 0x80348b000 (.text @ 0x80348d000)
+INFO    |    1022407 |      HOS-1      | Starting "The Legend of Zelda: Breath of the Wild" (01007EF00011E000) v1.0.0 by "Nintendo"
+INFO    |    1022723 |      HOS-1      | Execute: Starting main HOS thread
+INFO    |    1062616 |      HOS-1      | ICommonStateGetter: Switch to mode: Handheld
+INFO    |    1063048 |      HOS-1      | LogMemorySnapshot: MEMDIAG SetHeapSize/enter: requested=0xC3000000 (3120 MiB), processHeap=0x200000 (2 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=68 MiB, hostVmSize=177682 MiB, hostRss=251 MiB, hostVmPeak=177745 MiB, hostRssPeak=267 MiB
+INFO    |    1063060 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE SetHeapSize/enter: maps=0 unmaps=0 mapped=0 MiB unmapped=0 MiB active=0 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1063127 |      HOS-1      | LogMemorySnapshot: MEMDIAG SetHeapSize/exit: requested=0xC3000000 (3120 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=177682 MiB, hostRss=251 MiB, hostVmPeak=177745 MiB, hostRssPeak=267 MiB
+INFO    |    1063129 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE SetHeapSize/exit: maps=0 unmaps=0 mapped=0 MiB unmapped=0 MiB active=0 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1064026 |      HOS-1      | seadRawPrintNin.cpp:L18:U-King:PrintStringImpl():MainThread:755272s: 0000002e
+INFO    |    1064093 |      HOS-1      | SetPerformanceConfiguration: Performance configuration set to 0x92220008 (Handheld)
+INFO    |    1064108 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Fast Load
+INFO    |    1083621 |      HOS-1      | SetPerformanceConfiguration: Performance configuration set to 0x92220008 (Handheld)
+INFO    |    1121323 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x7000 (28 KiB), singleCalls=1, singleBytes=0 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=0 MiB
+INFO    |    1131572 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18089cf000, destination=0x199ca78000, size=0x4000 (0 MiB)
+INFO    |    1131587 |      HOS-1      | SvcMapMemory: MEMDIAG SVCMAP: maps=1 unmaps=0 mapped=0 MiB unmapped=0 MiB active=1 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1131706 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x4000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202633 MiB, hostRss=294 MiB, hostVmPeak=202633 MiB, hostRssPeak=294 MiB
+INFO    |    1131711 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=1 unmaps=0 mapped=0 MiB unmapped=0 MiB active=1 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1131841 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18089d5000, destination=0x198f73d000, size=0x10000 (0 MiB)
+INFO    |    1131962 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x10000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202634 MiB, hostRss=294 MiB, hostVmPeak=202634 MiB, hostRssPeak=294 MiB
+INFO    |    1131971 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=2 unmaps=0 mapped=0 MiB unmapped=0 MiB active=2 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1132145 |      HOS-3      | MapMemory: MEMDIAG MapMemory: source=0x18089f1000, destination=0x19b5c49000, size=0x1000 (0 MiB)
+INFO    |    1132201 |      HOS-3      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x1000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202651 MiB, hostRss=294 MiB, hostVmPeak=202651 MiB, hostRssPeak=294 MiB
+INFO    |    1132203 |      HOS-3      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=3 unmaps=0 mapped=0 MiB unmapped=0 MiB active=3 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1142389 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18089f3000, destination=0x19b92f8000, size=0x2000 (0 MiB)
+INFO    |    1142504 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x2000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202684 MiB, hostRss=294 MiB, hostVmPeak=202684 MiB, hostRssPeak=294 MiB
+INFO    |    1142510 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=4 unmaps=0 mapped=0 MiB unmapped=0 MiB active=4 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1152897 |      HOS-1      | UnmapMemory: MEMDIAG UnmapMemory: source=0x18089f3000, destination=0x19b92f8000, size=0x2000 (0 MiB)
+INFO    |    1152907 |      HOS-1      | SvcUnmapMemory: MEMDIAG SVCUNMAP: maps=4 unmaps=1 mapped=0 MiB unmapped=0 MiB active=3 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1153028 |      HOS-1      | LogMemorySnapshot: MEMDIAG UnmapMemory/exit: requested=0x2000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202685 MiB, hostRss=294 MiB, hostVmPeak=202701 MiB, hostRssPeak=294 MiB
+INFO    |    1153033 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE UnmapMemory/exit: maps=4 unmaps=1 mapped=0 MiB unmapped=0 MiB active=3 activeBytes=0 MiB peakBytes=0 MiB
+INFO    |    1164919 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x180be38000, destination=0x1990212000, size=0x100000 (1 MiB)
+INFO    |    1166777 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202685 MiB, hostRss=298 MiB, hostVmPeak=202701 MiB, hostRssPeak=298 MiB
+INFO    |    1166785 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=5 unmaps=1 mapped=1 MiB unmapped=0 MiB active=4 activeBytes=1 MiB peakBytes=1 MiB
+INFO    |    1166816 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x180bf39000, destination=0x19ba007000, size=0x100000 (1 MiB)
+INFO    |    1167829 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202685 MiB, hostRss=300 MiB, hostVmPeak=202701 MiB, hostRssPeak=300 MiB
+INFO    |    1167834 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=6 unmaps=1 mapped=2 MiB unmapped=0 MiB active=5 activeBytes=2 MiB peakBytes=2 MiB
+INFO    |    1167918 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x180c03a000, destination=0x19aa297000, size=0x100000 (1 MiB)
+INFO    |    1168907 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202702 MiB, hostRss=302 MiB, hostVmPeak=202702 MiB, hostRssPeak=302 MiB
+INFO    |    1168912 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=7 unmaps=1 mapped=3 MiB unmapped=0 MiB active=6 activeBytes=3 MiB peakBytes=3 MiB
+INFO    |    1168981 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18124bf000, destination=0x19be435000, size=0x14000 (0 MiB)
+INFO    |    1169104 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x14000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202720 MiB, hostRss=302 MiB, hostVmPeak=202720 MiB, hostRssPeak=302 MiB
+INFO    |    1169108 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=8 unmaps=1 mapped=3 MiB unmapped=0 MiB active=7 activeBytes=3 MiB peakBytes=3 MiB
+INFO    |    1169188 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18124d4000, destination=0x19accd3000, size=0x1000 (0 MiB)
+INFO    |    1169236 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x1000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202737 MiB, hostRss=302 MiB, hostVmPeak=202737 MiB, hostRssPeak=302 MiB
+INFO    |    1169239 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=9 unmaps=1 mapped=3 MiB unmapped=0 MiB active=8 activeBytes=3 MiB peakBytes=3 MiB
+INFO    |    1174811 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x186d298000, destination=0x19897f2000, size=0xFA000 (0 MiB)
+INFO    |    1176987 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0xFA000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202754 MiB, hostRss=314 MiB, hostVmPeak=202754 MiB, hostRssPeak=314 MiB
+INFO    |    1176996 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=10 unmaps=1 mapped=4 MiB unmapped=0 MiB active=9 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    1177118 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x186d393000, destination=0x19e5a43000, size=0x14000 (0 MiB)
+INFO    |    1177281 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x14000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202771 MiB, hostRss=314 MiB, hostVmPeak=202771 MiB, hostRssPeak=314 MiB
+INFO    |    1177288 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=11 unmaps=1 mapped=4 MiB unmapped=0 MiB active=10 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    1177337 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x186d3a8000, destination=0x1994a51000, size=0x14000 (0 MiB)
+INFO    |    1177466 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x14000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202788 MiB, hostRss=314 MiB, hostVmPeak=202788 MiB, hostRssPeak=314 MiB
+INFO    |    1177470 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=12 unmaps=1 mapped=4 MiB unmapped=0 MiB active=11 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    1177515 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x186d3bd000, destination=0x199e67e000, size=0xA000 (0 MiB)
+INFO    |    1177602 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0xA000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202805 MiB, hostRss=314 MiB, hostVmPeak=202805 MiB, hostRssPeak=314 MiB
+INFO    |    1177606 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=13 unmaps=1 mapped=4 MiB unmapped=0 MiB active=12 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    1178087 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x188e657000, destination=0x19e7172000, size=0x4000 (0 MiB)
+INFO    |    1178151 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x4000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202822 MiB, hostRss=315 MiB, hostVmPeak=202822 MiB, hostRssPeak=315 MiB
+INFO    |    1178154 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=14 unmaps=1 mapped=4 MiB unmapped=0 MiB active=13 activeBytes=4 MiB peakBytes=4 MiB
+ERROR   |    3747884 |      HOS-1      | Audio Core (Audio_Sink): Error getting minimum latency, error: -4
+INFO    |    3747939 |      HOS-1      | Audio Core (Service_Audio): Opening cubeb stream ADSP_RenderStream-0 type 0 with: rate 48000 channels 2 (system channels 2) latency 480
+ERROR   |    3790804 |      HOS-1      | Audio Core (Audio_Sink): Error getting minimum latency, error: -4
+INFO    |    3790826 |      HOS-1      | Audio Core (Service_Audio): Opening cubeb stream ADSP_RenderStream-1 type 0 with: rate 48000 channels 2 (system channels 2) latency 480
+INFO    |    3803110 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a1751000, destination=0x1a00955000, size=0x8000 (0 MiB)
+INFO    |    3803706 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x8000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202924 MiB, hostRss=1329 MiB, hostVmPeak=202924 MiB, hostRssPeak=1329 MiB
+INFO    |    3803732 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=15 unmaps=1 mapped=4 MiB unmapped=0 MiB active=14 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    3803950 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a174d000, destination=0x19edda6000, size=0x4000 (0 MiB)
+INFO    |    3804200 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x4000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202941 MiB, hostRss=1329 MiB, hostVmPeak=202941 MiB, hostRssPeak=1329 MiB
+INFO    |    3804220 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=16 unmaps=1 mapped=4 MiB unmapped=0 MiB active=15 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    3970081 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a1ce5000, destination=0x19cabde000, size=0x10000 (0 MiB)
+INFO    |    3970623 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x10000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202958 MiB, hostRss=1331 MiB, hostVmPeak=202958 MiB, hostRssPeak=1331 MiB
+INFO    |    3970640 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=17 unmaps=1 mapped=4 MiB unmapped=0 MiB active=16 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    4016475 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a2248000, destination=0x199a450000, size=0x2000 (0 MiB)
+INFO    |    4016654 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x2000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202975 MiB, hostRss=1342 MiB, hostVmPeak=202975 MiB, hostRssPeak=1342 MiB
+INFO    |    4016656 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=18 unmaps=1 mapped=4 MiB unmapped=0 MiB active=17 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    4156296 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a3ab3000, destination=0x19856af000, size=0x8000 (0 MiB)
+INFO    |    4156502 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x8000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202992 MiB, hostRss=1384 MiB, hostVmPeak=202992 MiB, hostRssPeak=1384 MiB
+INFO    |    4156528 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=19 unmaps=1 mapped=4 MiB unmapped=0 MiB active=18 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    4157912 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18092c3000, destination=0x198de42000, size=0x20000 (0 MiB)
+INFO    |    4158412 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=202993 MiB, hostRss=1385 MiB, hostVmPeak=202993 MiB, hostRssPeak=1385 MiB
+INFO    |    4158418 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=20 unmaps=1 mapped=4 MiB unmapped=0 MiB active=19 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    4158492 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18092e4000, destination=0x19f9b7a000, size=0x20000 (0 MiB)
+INFO    |    4158767 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203010 MiB, hostRss=1385 MiB, hostVmPeak=203010 MiB, hostRssPeak=1385 MiB
+INFO    |    4158773 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=21 unmaps=1 mapped=4 MiB unmapped=0 MiB active=20 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    4159008 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x1809506000, destination=0x199f33f000, size=0x20000 (0 MiB)
+INFO    |    4159271 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203043 MiB, hostRss=1385 MiB, hostVmPeak=203043 MiB, hostRssPeak=1385 MiB
+INFO    |    4159279 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=22 unmaps=1 mapped=4 MiB unmapped=0 MiB active=21 activeBytes=4 MiB peakBytes=4 MiB
+INFO    |    4159345 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x1809527000, destination=0x19e5798000, size=0x20000 (0 MiB)
+INFO    |    4159635 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203060 MiB, hostRss=1385 MiB, hostVmPeak=203060 MiB, hostRssPeak=1385 MiB
+INFO    |    4159640 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=23 unmaps=1 mapped=5 MiB unmapped=0 MiB active=22 activeBytes=5 MiB peakBytes=5 MiB
+INFO    |    4160730 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a3b9a000, destination=0x19d4fec000, size=0x80000 (0 MiB)
+INFO    |    4161586 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x80000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203077 MiB, hostRss=1387 MiB, hostVmPeak=203077 MiB, hostRssPeak=1387 MiB
+INFO    |    4161597 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=24 unmaps=1 mapped=5 MiB unmapped=0 MiB active=23 activeBytes=5 MiB peakBytes=5 MiB
+INFO    |    4161942 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a3ca3000, destination=0x19c1aef000, size=0x100000 (1 MiB)
+INFO    |    4163458 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203094 MiB, hostRss=1389 MiB, hostVmPeak=203094 MiB, hostRssPeak=1389 MiB
+INFO    |    4163466 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=25 unmaps=1 mapped=6 MiB unmapped=0 MiB active=24 activeBytes=6 MiB peakBytes=6 MiB
+INFO    |    4163776 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a3dd5000, destination=0x19933bd000, size=0x100000 (1 MiB)
+INFO    |    4165337 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203111 MiB, hostRss=1391 MiB, hostVmPeak=203111 MiB, hostRssPeak=1391 MiB
+INFO    |    4165346 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=26 unmaps=1 mapped=7 MiB unmapped=0 MiB active=25 activeBytes=7 MiB peakBytes=7 MiB
+INFO    |    4165616 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a3f07000, destination=0x19c0349000, size=0x100000 (1 MiB)
+INFO    |    4167092 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203128 MiB, hostRss=1393 MiB, hostVmPeak=203128 MiB, hostRssPeak=1393 MiB
+INFO    |    4167101 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=27 unmaps=1 mapped=8 MiB unmapped=0 MiB active=26 activeBytes=8 MiB peakBytes=8 MiB
+INFO    |    4167982 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18a411e000, destination=0x19e6187000, size=0x7000 (0 MiB)
+INFO    |    4168105 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x7000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203145 MiB, hostRss=1395 MiB, hostVmPeak=203145 MiB, hostRssPeak=1395 MiB
+INFO    |    4168128 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=28 unmaps=1 mapped=8 MiB unmapped=0 MiB active=27 activeBytes=8 MiB peakBytes=8 MiB
+INFO    |    4395273 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab039000, destination=0x19e47c7000, size=0x20000 (0 MiB)
+INFO    |    4395653 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203162 MiB, hostRss=1443 MiB, hostVmPeak=203162 MiB, hostRssPeak=1443 MiB
+INFO    |    4395663 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=29 unmaps=1 mapped=8 MiB unmapped=0 MiB active=28 activeBytes=8 MiB peakBytes=8 MiB
+INFO    |    4395786 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab05b000, destination=0x19f8ef5000, size=0x20000 (0 MiB)
+INFO    |    4396110 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203179 MiB, hostRss=1444 MiB, hostVmPeak=203179 MiB, hostRssPeak=1444 MiB
+INFO    |    4396120 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=30 unmaps=1 mapped=8 MiB unmapped=0 MiB active=29 activeBytes=8 MiB peakBytes=8 MiB
+INFO    |    4396211 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab07c000, destination=0x1990d44000, size=0x1000 (0 MiB)
+INFO    |    4396311 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x1000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203196 MiB, hostRss=1444 MiB, hostVmPeak=203196 MiB, hostRssPeak=1444 MiB
+INFO    |    4396313 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=31 unmaps=1 mapped=8 MiB unmapped=0 MiB active=30 activeBytes=8 MiB peakBytes=8 MiB
+INFO    |    4397031 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab140000, destination=0x19ea5f6000, size=0x100000 (1 MiB)
+INFO    |    4398697 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203213 MiB, hostRss=1446 MiB, hostVmPeak=203213 MiB, hostRssPeak=1446 MiB
+INFO    |    4398711 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=32 unmaps=1 mapped=9 MiB unmapped=0 MiB active=31 activeBytes=9 MiB peakBytes=9 MiB
+INFO    |    4398814 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab241000, destination=0x19adb53000, size=0x100000 (1 MiB)
+INFO    |    4400473 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203230 MiB, hostRss=1448 MiB, hostVmPeak=203230 MiB, hostRssPeak=1448 MiB
+INFO    |    4400490 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=33 unmaps=1 mapped=10 MiB unmapped=0 MiB active=32 activeBytes=10 MiB peakBytes=10 MiB
+INFO    |    4400623 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab342000, destination=0x1a01094000, size=0x100000 (1 MiB)
+INFO    |    4402388 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203247 MiB, hostRss=1451 MiB, hostVmPeak=203247 MiB, hostRssPeak=1451 MiB
+INFO    |    4402397 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=34 unmaps=1 mapped=11 MiB unmapped=0 MiB active=33 activeBytes=11 MiB peakBytes=11 MiB
+INFO    |    4402897 |      HOS-1      | UnmapMemory: MEMDIAG UnmapMemory: source=0x18ab140000, destination=0x19ea5f6000, size=0x100000 (1 MiB)
+INFO    |    4403412 |      HOS-1      | LogMemorySnapshot: MEMDIAG UnmapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203248 MiB, hostRss=1450 MiB, hostVmPeak=203264 MiB, hostRssPeak=1451 MiB
+INFO    |    4403422 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE UnmapMemory/exit: maps=34 unmaps=2 mapped=11 MiB unmapped=1 MiB active=32 activeBytes=10 MiB peakBytes=11 MiB
+INFO    |    4404432 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Normal
+INFO    |    4445607 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab545000, destination=0x1990ea3000, size=0x40000 (0 MiB)
+INFO    |    4446169 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x40000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203248 MiB, hostRss=1454 MiB, hostVmPeak=203264 MiB, hostRssPeak=1454 MiB
+INFO    |    4446175 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=35 unmaps=2 mapped=12 MiB unmapped=1 MiB active=33 activeBytes=11 MiB peakBytes=11 MiB
+INFO    |    4450990 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ad8c5000, destination=0x19a3f33000, size=0x100000 (1 MiB)
+INFO    |    4452803 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203265 MiB, hostRss=1456 MiB, hostVmPeak=203265 MiB, hostRssPeak=1456 MiB
+INFO    |    4452820 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=36 unmaps=2 mapped=13 MiB unmapped=1 MiB active=34 activeBytes=12 MiB peakBytes=12 MiB
+INFO    |    4639302 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Normal
+INFO    |    4642664 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab140000, destination=0x19bc8f6000, size=0x100000 (1 MiB)
+INFO    |    4644037 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203319 MiB, hostRss=1460 MiB, hostVmPeak=203319 MiB, hostRssPeak=1460 MiB
+INFO    |    4644067 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=37 unmaps=2 mapped=14 MiB unmapped=1 MiB active=35 activeBytes=13 MiB peakBytes=13 MiB
+INFO    |    4675421 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Fast Load
+INFO    |    6420706 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Normal
+INFO    |    6452847 |      HOS-7      | UnmapMemory: MEMDIAG UnmapMemory: source=0x18ab140000, destination=0x19bc8f6000, size=0x100000 (1 MiB)
+INFO    |    6453358 |      HOS-7      | LogMemorySnapshot: MEMDIAG UnmapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203468 MiB, hostRss=1464 MiB, hostVmPeak=203513 MiB, hostRssPeak=1469 MiB
+INFO    |    6453367 |      HOS-7      | LogMemorySnapshot: MEMDIAG MAPSTATE UnmapMemory/exit: maps=37 unmaps=3 mapped=14 MiB unmapped=2 MiB active=34 activeBytes=12 MiB peakBytes=13 MiB
+INFO    |    8153842 |      HOS-1      | MapMemory: MEMDIAG MapMemory: source=0x18ab140000, destination=0x19ea2b0000, size=0x100000 (1 MiB)
+INFO    |    8154710 |      HOS-1      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203474 MiB, hostRss=1510 MiB, hostVmPeak=203513 MiB, hostRssPeak=1510 MiB
+INFO    |    8154716 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=38 unmaps=3 mapped=15 MiB unmapped=2 MiB active=35 activeBytes=13 MiB peakBytes=13 MiB
+INFO    |    9011069 |     HOS-36      | MapMemory: MEMDIAG MapMemory: source=0x18ac0d9000, destination=0x19ce650000, size=0x10000 (0 MiB)
+INFO    |    9011327 |     HOS-36      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x10000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=203492 MiB, hostRss=1713 MiB, hostVmPeak=203513 MiB, hostRssPeak=1713 MiB
+INFO    |    9011335 |     HOS-36      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=39 unmaps=3 mapped=15 MiB unmapped=2 MiB active=36 activeBytes=13 MiB peakBytes=13 MiB
+INFO    |   11126217 |       unk       | SerialisePipelineCache: Wrote Vulkan pipeline cache to /storage/emulated/0/Android/data/org.stratoemu.strato/files/vk_graphics_pipeline_cache/01007EF00011E000/435100000200050663208006A828463CC32C06EFE92A24EDECDA7BCF (size: 0x170ED bytes)
+INFO    |   16270858 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=257, singleBytes=103 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=103 MiB
+INFO    |   19316808 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Fast Load
+INFO    |   20648653 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x2000 (8 KiB), singleCalls=513, singleBytes=224 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=224 MiB
+INFO    |   21256028 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=769, singleBytes=234 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=234 MiB
+INFO    |   21358572 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=1025, singleBytes=238 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=238 MiB
+INFO    |   21538472 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x20000 (128 KiB), singleCalls=1281, singleBytes=367 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=367 MiB
+INFO    |   21956247 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x20000 (128 KiB), singleCalls=1537, singleBytes=459 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=459 MiB
+INFO    |   22530870 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x8000 (32 KiB), singleCalls=1793, singleBytes=475 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=475 MiB
+INFO    |   23422679 |     HOS-36      | MapMemory: MEMDIAG MapMemory: source=0x18c46bc000, destination=0x19a2797000, size=0x100000 (1 MiB)
+INFO    |   23427448 |     HOS-36      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=204192 MiB, hostRss=1885 MiB, hostVmPeak=204219 MiB, hostRssPeak=2016 MiB
+INFO    |   23427469 |     HOS-36      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=40 unmaps=3 mapped=16 MiB unmapped=2 MiB active=37 activeBytes=14 MiB peakBytes=14 MiB
+INFO    |   23450462 |     HOS-36      | MapMemory: MEMDIAG MapMemory: source=0x18c54c1000, destination=0x199d568000, size=0x100000 (1 MiB)
+INFO    |   23452102 |     HOS-36      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=204192 MiB, hostRss=1901 MiB, hostVmPeak=204219 MiB, hostRssPeak=2016 MiB
+INFO    |   23452148 |     HOS-36      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=41 unmaps=3 mapped=17 MiB unmapped=2 MiB active=38 activeBytes=15 MiB peakBytes=15 MiB
+INFO    |   23555505 |     HOS-36      | MapMemory: MEMDIAG MapMemory: source=0x18c612c000, destination=0x19a68d0000, size=0x20000 (0 MiB)
+INFO    |   23555943 |     HOS-36      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x20000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=204226 MiB, hostRss=1906 MiB, hostVmPeak=204226 MiB, hostRssPeak=2016 MiB
+INFO    |   23555950 |     HOS-36      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=42 unmaps=3 mapped=17 MiB unmapped=2 MiB active=39 activeBytes=15 MiB peakBytes=15 MiB
+INFO    |   23556998 |     HOS-36      | MapMemory: MEMDIAG MapMemory: source=0x18c616c000, destination=0x19bb831000, size=0x10000 (0 MiB)
+INFO    |   23557584 |     HOS-36      | LogMemorySnapshot: MEMDIAG MapMemory/exit: requested=0x10000 (0 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=204243 MiB, hostRss=1906 MiB, hostVmPeak=204243 MiB, hostRssPeak=2016 MiB
+INFO    |   23557606 |     HOS-36      | LogMemorySnapshot: MEMDIAG MAPSTATE MapMemory/exit: maps=43 unmaps=3 mapped=17 MiB unmapped=2 MiB active=40 activeBytes=15 MiB peakBytes=15 MiB
+INFO    |   25921517 |       unk       | SerialisePipelineCache: Wrote Vulkan pipeline cache to /storage/emulated/0/Android/data/org.stratoemu.strato/files/vk_graphics_pipeline_cache/01007EF00011E000/435100000200050663208006A828463CC32C06EFE92A24EDECDA7BCF (size: 0x84DAD bytes)
+INFO    |   27972119 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0xC000 (48 KiB), singleCalls=2049, singleBytes=524 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=524 MiB
+INFO    |   28022279 |      HOS-1      | SetCpuBoostMode: Set CPU boost mode to Normal
+INFO    |   28057952 |      HOS-1      | UnmapMemory: MEMDIAG UnmapMemory: source=0x18ab140000, destination=0x19ea2b0000, size=0x100000 (1 MiB)
+INFO    |   28058908 |      HOS-1      | LogMemorySnapshot: MEMDIAG UnmapMemory/exit: requested=0x100000 (1 MiB), processHeap=0xC3000000 (3120 MiB), heapCapacity=0x180000000 (6144 MiB), userMemory=3186 MiB, hostVmSize=204294 MiB, hostRss=2268 MiB, hostVmPeak=204343 MiB, hostRssPeak=2269 MiB
+INFO    |   28058917 |      HOS-1      | LogMemorySnapshot: MEMDIAG MAPSTATE UnmapMemory/exit: maps=43 unmaps=4 mapped=17 MiB unmapped=3 MiB active=39 activeBytes=14 MiB peakBytes=15 MiB
+INFO    |   28086876 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=2305, singleBytes=577 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=577 MiB
+INFO    |   28220213 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x4000 (16 KiB), singleCalls=2561, singleBytes=591 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=591 MiB
+INFO    |   28495620 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0xF0000 (960 KiB), singleCalls=2817, singleBytes=656 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=656 MiB
+INFO    |   29127039 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0xAC000 (688 KiB), singleCalls=3073, singleBytes=695 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=695 MiB
+INFO    |   29792734 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x2000 (8 KiB), singleCalls=3329, singleBytes=709 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=709 MiB
+INFO    |   29877863 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x4000 (16 KiB), singleCalls=3585, singleBytes=727 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=727 MiB
+INFO    |   30026903 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0xAC000 (688 KiB), singleCalls=3841, singleBytes=752 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=752 MiB
+INFO    |   30127277 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=4097, singleBytes=788 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=788 MiB
+INFO    |   30419038 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x4000 (16 KiB), singleCalls=4353, singleBytes=795 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=795 MiB
+INFO    |   35282340 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x14000 (80 KiB), singleCalls=4609, singleBytes=866 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=866 MiB
+INFO    |   36702348 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x4000 (16 KiB), singleCalls=4865, singleBytes=919 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=919 MiB
+WARNING |   38558660 |     GPFIFO      | Flush: Wide lines used on guest but unsupported on host; using 1.0 fallback
+INFO    |   38569060 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0xA000 (40 KiB), singleCalls=5121, singleBytes=936 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=936 MiB
+INFO    |   43963012 |       unk       | SerialisePipelineCache: Wrote Vulkan pipeline cache to /storage/emulated/0/Android/data/org.stratoemu.strato/files/vk_graphics_pipeline_cache/01007EF00011E000/435100000200050663208006A828463CC32C06EFE92A24EDECDA7BCF (size: 0x38BE15 bytes)
+INFO    |   44281691 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x14000 (80 KiB), singleCalls=5377, singleBytes=1047 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1047 MiB
+INFO    |   47398770 |       unk       | SerialisePipelineCache: Wrote Vulkan pipeline cache to /storage/emulated/0/Android/data/org.stratoemu.strato/files/vk_graphics_pipeline_cache/01007EF00011E000/435100000200050663208006A828463CC32C06EFE92A24EDECDA7BCF (size: 0x38BE15 bytes)
+INFO    |   51763749 |       unk       | SerialisePipelineCache: Wrote Vulkan pipeline cache to /storage/emulated/0/Android/data/org.stratoemu.strato/files/vk_graphics_pipeline_cache/01007EF00011E000/435100000200050663208006A828463CC32C06EFE92A24EDECDA7BCF (size: 0x3A51BD bytes)
+INFO    |   52361482 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x2000 (8 KiB), singleCalls=5633, singleBytes=1145 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1145 MiB
+INFO    |   52810806 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x2C000 (176 KiB), singleCalls=5889, singleBytes=1151 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1151 MiB
+INFO    |   53303975 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x5000 (20 KiB), singleCalls=6145, singleBytes=1175 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1175 MiB
+INFO    |   54026893 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x2000 (8 KiB), singleCalls=6401, singleBytes=1192 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1192 MiB
+INFO    |   54226506 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x3000 (12 KiB), singleCalls=6657, singleBytes=1213 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1213 MiB
+INFO    |   54362026 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=6913, singleBytes=1225 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1225 MiB
+INFO    |   54692476 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x1000 (4 KiB), singleCalls=7169, singleBytes=1231 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1231 MiB
+INFO    |   55544224 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0x2000 (8 KiB), singleCalls=7425, singleBytes=1236 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1236 MiB
+INFO    |   58104374 |     GPFIFO      | LogMirrorDiag: MEMDIAG MIRROR CreateMirror: size=0xF0000 (960 KiB), singleCalls=7681, singleBytes=1303 MiB, multiCalls=0, multiBytes=0 MiB, totalCreated=1303 MiB
